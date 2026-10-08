@@ -1,0 +1,8 @@
+ktor:
+  deployment:
+    port: 8080
+  application:
+    modules:
+      - com.enriqueizel.SerializationKt.configureSerialization
+      - com.enriqueizel.StatusPagesKt.configureStatusPages
+      - com.enriqueizel.RoutingKt.configureRouting
