@@ -1,6 +1,5 @@
-package com.enriqueizel
+package com.enriqueizel.model
 
-import io.ktor.util.StringValues
 import kotlinx.serialization.Serializable
 
 @Serializable
